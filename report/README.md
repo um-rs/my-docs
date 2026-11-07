@@ -44,7 +44,7 @@
 
 ### 2.4 Pages 设置
 
-在推送代码触发部署之前，先去个人仓库的 `Settings` -> `Pages` -> `Build and deployment` 下，把 `Source` 发布来源改成了 **GitHub Actions**，并确认仓库的 Actions 权限处于开启状态。
+在推送代码触发部署之前，先为个人仓库配置 Pages 发布来源为 **GitHub Actions**（可通过仓库 `Settings` -> `Pages` 设置，这里同时用本机 `gh api repos/um-rs/my-docs/pages` 核验确认 `"build_type": "workflow"` 已生效，且仓库 Actions 权限为开启状态）。
 
 这样做主要是为了走官方推荐的产物上传发布流，省得像老教程那样还得单独维护一个 `gh-pages` 分支或者自己去配访问令牌，后续只要工作流把 `site/` 打包上传就能直接发版了。
 
