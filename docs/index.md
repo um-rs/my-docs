@@ -1,0 +1,20 @@
+# vita 的技术文档
+
+这里是我的个人课程文档站，主要用来记录开源软件课上折腾 MkDocs 和 GitHub Actions 自动部署的过程。
+
+平时写长文和日常随笔一般还是放在我的主站 [维他茶馆 (vita.do)](https://vita.do) 上。这边这个站点相对轻量化一些，纯粹用本地 Markdown 写完推上 GitHub，靠工作流自动构建并托管到 GitHub Pages，算是体验一下无后端的静态文档维护流程吧。
+
+## 基本信息
+
+- 作者：`um-rs`（vita）
+- 个人博客：[https://vita.do](https://vita.do)
+- 源码仓库：[um-rs/my-docs](https://github.com/um-rs/my-docs)
+- 实践主题：基于 MkDocs Material 的静态文档自动构建与部署
+
+## 页面导航
+
+站里目前分了四个部分，可以直接从左边栏或者下面的链接点进去看：
+
+- [关于本项目](about.md)：项目用到的工具链，以及对比平时维护 WordPress 动态站的一点实际体会。
+- [使用指南](guide.md)：本地配虚拟环境、预览页面，还有推送触发自动更新的日常操作步骤。
+- [API 参考](api.md)：用文档站排版写的一份模拟接口说明示例（包含请求参数表和 JSON 返回样例）。
